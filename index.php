@@ -26,6 +26,6 @@ $router->get('/add', function ($request) {
 });
 
 
-$product = new ProductController();
+$product = new ProductController;
 $product->createArray($router);
 $product->checkBox($router);
